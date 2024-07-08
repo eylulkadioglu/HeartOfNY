@@ -6,12 +6,8 @@ from models import db, County, Society
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://hony_owner:w8mlc0PMiNxI@ep-tight-sun-a4ajzyif.us-east-1.aws.neon.tech/hony?sslmode=require'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'Your database URI'
 db.init_app(app)
-
-@app.route('/')
-def index():
-    return render_template('index.html')
 
 @app.route('/societies', methods=['GET'])
 def get_societies():
