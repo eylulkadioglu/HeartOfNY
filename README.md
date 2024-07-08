@@ -2,8 +2,6 @@
 
 This project aims to display the visitors who are standing by 'TechWorks!' building's map of New York State, the information about the historical societies in New York State . It allows people to scan the uniquely created QR codes of each county and view the historical society data of that county.
 
-## Project Overview
-
 This sub project of Heart of New York project also includes creation of small map of NYS with unique QR codes for each county. 
 
 ## Features
