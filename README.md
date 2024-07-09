@@ -8,15 +8,14 @@ This sub project of Heart of New York project also includes creation of small ma
 
 - **Interactive Map**: A small map of NYS with QR codes for each county.
 - **Database Integration**: A database to store information about counties and historical societies.
-- **Web-Based Application**: Seamless access to county historical information via QR code scanning.
-
-## Installation
+- **Web-Based Application**: Seamless access to county historical information via web browser.
+- **QR Code**: Ability to access county information by scanning a QR code on a mobile device.
 
 ### Prerequisites
 
 - Python 3.x
 - PostgreSQL
-- AWS Account
+- AWS Account (EC2) 
 
 ### Steps
 
@@ -41,7 +40,7 @@ The project uses a REST API to fetch and display historical information. The API
 ## Technologies Used
 
 - **Python**: For backend development.
-- **PostgreSQL**: As the database system.
+- **PostgreSQL**: As RDBMS.
 - **AWS EC2**: For hosting the application.
 - **pgAdmin4**: For database management.
 - **QR Code**: For providing interactive access to historical data.
@@ -89,5 +88,5 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 ```
 
-This code fetches data from the API hosted on the EC2 instance and displays it on the Squarespace page. Make sure to replace 'your api url' with the actual endpoint you are using.
+This code fetches data from the API hosted on the EC2 instance and displays it on the Squarespace page. Make sure to replace 'your api url' with the actual endpoint you are using. In order to prevent any cross site origin errors, serve both static and application page from the same domain. Also be sure that you are serving static pages using TLS.
 
