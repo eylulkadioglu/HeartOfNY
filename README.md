@@ -32,3 +32,9 @@
    ```bash
    git clone https://github.com/eylulkadioglu/HeartOfNY.git
    cd HeartOfNY
+
+## ⚠️ Note
+
+This project is **deployed on a private AWS EC2 instance** and is **not intended for local development or public deployment** due to data privacy and infrastructure requirements.
+
+The application is designed for use within the [Center for Technology & Innovation](https://ctandi.org/) environment. QR code links and county-specific content are integrated with private systems and cannot be shared publicly.
