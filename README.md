@@ -1,6 +1,6 @@
 # 🗽 Heart of New York
 
-**Heart of New York** is a web-based application designed to enrich visitors' experiences at the TechWorks! building's map of New York State. By scanning uniquely generated QR codes for each county, users can access detailed information about local historical societies.
+**Heart of New York** is a web-based application designed to enrich visitors' experiences at the Center for Technology & Innovation building's map of New York State. By scanning uniquely generated QR codes for each county, users can access detailed information about local historical societies.
 
 ---
 
@@ -28,7 +28,7 @@
 
 ## 🧠 System Design Overview
 
-The **Heart of New York** project is a web-based information system designed to serve educational visitors at the TechWorks! building. By scanning QR codes placed on a physical map, users are directed to county-specific pages containing historical society information — all powered by a lightweight backend system designed for efficiency and maintainability.
+By scanning QR codes placed on a physical map, users are directed to county-specific pages containing historical society information — all powered by a lightweight backend system designed for efficiency and maintainability.
 
 ### 🧩 System Components
 
